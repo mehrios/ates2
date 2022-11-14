@@ -26,7 +26,7 @@ class Messenger{
     }
     show_history(){
         this.mess.forEach(message => {
-            console.log(this.mess.toString());
+            console.log(message.toString());
         });
     }
 }
